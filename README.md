@@ -7,8 +7,8 @@ It is expected that you already built the stand-alone build of your website. For
 You need to repeat this process for each platform because the node_modules and nwjs app are platform specific.
 
 1. `npm install`
-2. Copy your built website public folder to the public folder in a sub-folder matching the `siteId`. Note this folder is .gitignore'd.
-3. Update `rundev.js` to set your `siteId`. It must match the product folder under /public, which is the same site-id in your site config.
+2. Copy your built website public folder to the public folder in a sub-folder matching the `siteId`. Note this folder is .gitignore'd. In this example it would go in `./public/qt/`.
+3. Update `rundev.js` to set your `siteId`. It must match the product folder you copied under `./public`, which is the same site-id in your site config.
 4. Install the matching OS version of [NWJS](https://nwjs.io/) (macOS, WIndows, Linux).
 5. Update `package.json` to match your product. For example, for Qt it would look something like this:
 
