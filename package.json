@@ -1,0 +1,20 @@
+{
+  "name": "arcgis-api-for-x",
+  "version": "0.0.1",
+  "description": "ArcGIS API for X",
+  "main": "rundev.js",
+  "scripts": {
+    "start": "node rundev.js"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1"
+  },
+  "keywords": ["arcgis", "gatsby", "documentation"],
+  "author": "John Foster",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jf990/gatsby-doc-packager/issues"
+  },
+  "homepage": "https://github.com/jf990/gatsby-doc-packager#readme"
+}

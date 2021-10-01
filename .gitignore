@@ -1,3 +1,7 @@
+# This app crap
+public/
+dist/
+
 # Logs
 logs
 *.log
