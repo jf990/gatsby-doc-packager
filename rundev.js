@@ -12,4 +12,4 @@ webserver.listen(localPort);
 console.log("Listening on port " + localPort + " open a browser to http://localhost:" + localPort + "/" + siteId + "/");
  
 // Get nwjs.exe from https://nwjs.io/
-nw.Window.open("http://localhost:" + localPort + "/" + siteId + "/", {}, function(win) {});
+nw.Window.open("http://localhost:" + localPort + "/" + siteId + "/", {width: 1024, height: 768}, function(win) {});
